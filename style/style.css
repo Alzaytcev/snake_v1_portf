@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@900&display=swap');
+
 body {
      padding: 0;
 	margin: 0px;
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
      display: flex;
      justify-content: center;
      align_items:center;
@@ -11,24 +14,40 @@ body {
      background-size: cover;
 }
 
-
-/* animated_letters_code______ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.head_text{
+     
+     justify-content: center;
+     align_items:center;
+     margin-bottom: 40px;
+     position:absolute;
+     left:80%;
+     top:10%;
+     transform:translate(-50%, -50%);
+       background:linear-gradient(60deg, teal,teal, Tomato,tomato, teal, teal);
+       background-size: 300%;
+      font-family: 'Poppins', Helvetica, sans-serif;
+       font-weight: 400;
+       font-size: 5vw;
+       letter-spacing: 5px;
+       cursor:pointer;
+       text-transform: uppercase;
+       -webkit-background-clip:text;
+       -webkit-text-fill-color: transparent;
+       animation:animated_text 6s ease-in-out infinite;
+       -moz-animation:animated_text 6s ease-in-out infinite;
+       -webkit-animaiton:animated_text 6s ease-in-out infinite;
+}
+@keyframes animated_text {
+     0%{
+          background-position: 0% 50%;
+     }
+     50%{
+          background-position: 100% 50%;
+     }
+     100% {
+          background-position: 0% 50%;
+     }
+}
 
 
 /* snake_game_code________ */
