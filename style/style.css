@@ -7,11 +7,12 @@ body {
 	font-family: 'Poppins', sans-serif;
      display: flex;
      justify-content: center;
-     align_items:center;
-     background-image: url('https://img5.goodfon.ru/wallpaper/nbig/8/4d/priroda-les-derevia-25.jpg');
+     align_items:center; 
+     background: linear-gradient( rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.5) ), url('https://img5.goodfon.ru/wallpaper/nbig/8/4d/priroda-les-derevia-25.jpg');
      background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: cover;
+     
 }
 
 .head_text{
